@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --lihtblack-text: rgba(47, 48, 58, 1);
+  --lihtgrey-text: rgba(245, 244, 250, 1);
+  --middlewhite-text: rgba(255, 255, 255, 0.6);
+  --border-colorprj: #eeeeee;
+  --backgroundlitht-color: #f5f4fa;
+  --svg-maincolor: #afb1b8;
+  --backgroundlitht-icon: rgba(255, 255, 255, 0.1);
+  --backgroundblack-color: rgba(47, 48, 58, 0.8);
+  --backdrop-color: rgba(0, 0, 0, 0.2);
+  --time-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --border-color: rgba(255, 255, 255, 0.3);
+  --border-form: rgba(33, 33, 33, 0.2);
+  --holder-color: rgba(117, 117, 117, 0.5);
+  --overlay-color: rgba(33, 150, 243, 0.9);
+  --dogovor: #757575;
+  --modal-button-sumbit: #188ce8;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}

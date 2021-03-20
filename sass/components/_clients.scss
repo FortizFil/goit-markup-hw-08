@@ -1,0 +1,32 @@
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.clients__item {
+  margin: 15px;
+  // flex-basis: calc((100% - 4 * 15px) / 2);
+}
+
+.clients__link {
+  display: flex;
+  width: 210px;
+  height: 90px;
+  border: 1px solid var(--svg-maincolor);
+  align-items: center;
+  justify-content: center;
+  color: var(--svg-maincolor);
+  border-radius: 4px;
+  transition: color 250ms var(--time-cubic), border 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--blue-text);
+    border: 1px solid var(--blue-text);
+  }
+}
+
+.clients__icon {
+  fill: currentColor;
+}

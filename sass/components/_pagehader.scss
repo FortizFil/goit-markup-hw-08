@@ -1,0 +1,124 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.nav__list {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.nav__link {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--black-text);
+  letter-spacing: 0.02em;
+  transition: color 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--blue-text);
+    outline: none;
+  }
+}
+
+.nav__link--active {
+  display: block;
+  color: var(--blue-text);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--blue-text);
+    left: 0;
+    bottom: -1px;
+  }
+}
+
+.nav__item {
+  margin-left: 50px;
+  position: relative;
+
+  &:first-child {
+    margin-left: 93px;
+  }
+}
+
+.head-contacts {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+}
+
+// display: flex;
+
+.head-contacts__item {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  //   margin-right: 30px;
+
+  //   &:last-child {
+  //     margin-right: 0px;
+  //   }
+}
+
+.head-contacts__link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--grey-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--blue-text);
+  }
+}
+
+.head-contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

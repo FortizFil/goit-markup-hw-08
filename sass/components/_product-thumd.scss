@@ -1,0 +1,31 @@
+.product-thumb {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.product-thumb__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  transform: translateY(100%);
+  background-color: var(--overlay-color);
+  transition: transform 250ms var(--time-cubic);
+}
+
+.product-thumb__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+  margin: 0;
+}
+
+.product-thumb:hover .product-thumb__overlay {
+  transform: translateY(0);
+}
