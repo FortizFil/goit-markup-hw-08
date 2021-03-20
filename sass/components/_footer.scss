@@ -3,12 +3,20 @@
 }
 
 .footer-container {
-  // display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
 }
 
+.adress-group {
+  @media (min-width: 768px) {
+    padding-right: 89px;
+    padding-left: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 .address__contacts {
   font-size: 14px;
   line-height: 1.1;
@@ -37,6 +45,10 @@
 
 .social {
   margin-top: 60px;
+
+  @media (min-width: 768px) {
+    margin-top: 0px;
+  }
 }
 
 .social__name {
@@ -106,6 +118,10 @@
     font-size: 16px;
     line-height: 1.25;
     color: var(--middlewhite-text);
+  }
+
+  @media (min-width: 768px) {
+    width: 450px;
   }
 }
 

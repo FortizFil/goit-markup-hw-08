@@ -29,3 +29,8 @@
 .product-thumb:hover .product-thumb__overlay {
   transform: translateY(0);
 }
+
+.product-thumb__logo {
+  display: block;
+  width: 100%;
+}
