@@ -49,9 +49,38 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/decktophero.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/decktopherox2.jpg);
+    }
+  }
+}
+
 .hero__container {
   padding-top: 118px;
   padding-bottom: 118px;
+
+  @media (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 .hero__name {
   margin-top: 0px;
@@ -63,6 +92,11 @@
   color: var(--white-text);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  @media (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.363;
+  }
 }
 
 .hero__btn {
