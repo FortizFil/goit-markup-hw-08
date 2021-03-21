@@ -5,7 +5,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/mobilehero.jpg);
+    url(../images/mobilehero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/mobileherox2.jpg);
+      url(../images/mobileherox2.jpg);
   }
 
   @media (min-width: 768px) {
@@ -30,7 +30,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/tablethero.jpg);
+      url(../images/tablethero.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -40,7 +40,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/tabletherox2.jpg);
+        url(../images/tabletherox2.jpg);
     }
   }
 
@@ -50,7 +50,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/decktophero.jpg);
+      url(../images/decktophero.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -60,7 +60,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/decktopherox2.jpg);
+        url(../images/decktopherox2.jpg);
     }
   }
 }
