@@ -1189,6 +1189,7 @@ ul {
 
 .clients__item {
   margin: 15px;
+  width: calc((100% - 60px) / 2);
 }
 
 @media (min-width: 768px) {
@@ -1209,7 +1210,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 210px;
   height: 90px;
   border: 1px solid var(--svg-maincolor);
   -webkit-box-align: center;
